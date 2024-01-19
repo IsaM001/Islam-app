@@ -1,0 +1,88 @@
+.main-heading {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.main-paragraph {
+  background-color: #ecf0f1;
+  color: #333;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.islam-explain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.below {
+  font-weight: bold;
+}
+
+.tawheed {
+  text-align: center;
+}
+
+.tawheed-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.circle {
+  position: relative;
+  width: 300px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #f1faee;
+  color: #1e1a1d;
+  border: 2px solid #21a0a0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.circle p,
+.circle h3 {
+  display: none;
+}
+
+.popup.show {
+  background-color: #fff;
+  color: #333;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.popup.show .popup-p,
+.popup.show .popup-h3 {
+  display: block;
+  color: #333;
+  margin: 10px;
+}
+
+.popup.show button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.popup.show button:hover {
+  background-color: #297fb8;
+}

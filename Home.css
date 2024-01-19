@@ -1,0 +1,64 @@
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.names-container {
+  width: 300px;
+  margin: 10px;
+  padding: 50px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.names-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.home-text {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 3px;
+  text-align: center;
+}
+
+.names-container-99-names {
+  background-image: url("../namepic.png");
+  background-size: cover;
+}
+
+.names-container-dhikr {
+  background-image: url("../dhikr.png");
+  background-size: cover;
+}
+
+.names-container-salah {
+  background-image: url("../Salah.png");
+  background-size: cover;
+}
+
+.names-container-four {
+  background-image: url("../fourimg.png");
+  background-size: cover;
+}
+
+.names-container-quiz {
+  background-image: url("../quiz.png");
+  background-size: cover;
+}
+
+.names-container-books {
+  background-image: url("../books.png");
+  background-size: cover;
+}

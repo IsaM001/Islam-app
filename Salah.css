@@ -1,0 +1,125 @@
+.button-style {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.prayer-container {
+  border: 2px solid black;
+  color: #2f6690;
+  background-color: #d9dcd6;
+}
+
+.time {
+  margin: 10px;
+}
+
+.main-heading {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.main-paragraph {
+  background-color: #ecf0f1;
+  color: #333;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+input {
+  margin-top: 20px;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dhikr-one,
+.dhikr-two,
+.dhikr-three {
+  background-color: #ecf0f1;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  position: relative;
+  margin: 10px;
+}
+
+.dhikr-one h2,
+.dhikr-two h2,
+.dhikr-three h2,
+.dhikr-one p,
+.dhikr-two p,
+.dhikr-three p,
+.dhikr-one h6,
+.dhikr-two h6,
+.dhikr-three h6 {
+  font-size: 16px;
+}
+
+.dhikr-one h2,
+.dhikr-two h2,
+.dhikr-three h2 {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.salah-sec {
+  color: #333;
+  margin-top: 5px;
+}
+
+.dhikr-one h6,
+.dhikr-two h6,
+.dhikr-three h6 {
+  color: #777;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
